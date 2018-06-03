@@ -1,7 +1,7 @@
 {
-  "name": "node-js-getting-started",
+  "name": "node-app-siki",
   "version": "0.3.0",
-  "description": "A sample Node.js app using Express 4",
+  "description": "very nice app",
   "engines": {
     "node": "8.9.1"
   },
@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "ejs": "^2.5.6",
-    "express": "^4.15.2"
+    "express": "^4.16.3"
   },
   "devDependencies": {
     "request": "^2.81.0",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/SikandarIqbal007/heroku_app"
   },
   "keywords": [
     "node",
