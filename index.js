@@ -11,8 +11,9 @@ var db = require('./db');
 
 app.get('/', function(req,res){
 
-
-    db.query('select * from user', function(err, result) {
+    var SQL = "insert into user values (? , ? , ?)";
+    var fields = ['mehdi','mehdi@gmail.com','mehdi123'];
+    db.query(SQL,fields, function(err, result) {
         if (err) throw err;
         res.send(result);
       });
